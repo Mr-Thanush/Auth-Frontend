@@ -1,7 +1,6 @@
 import api from "../api";
 import "../Styles/auth.css"
 import { useNavigate } from "react-router-dom";
-import "../styles/auth.css";
 
 function Home() {
   const navigate = useNavigate();
