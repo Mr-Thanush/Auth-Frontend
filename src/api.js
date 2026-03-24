@@ -1,7 +1,7 @@
  import axios from "axios";
 
  const api=axios.create({
-    baseURL:"http://localhost:8080/api/authentication",
+    baseURL:"https://authentication-k94y.onrender.com/api/authentication",
     withCredentials:true  //it is must for cookies
  });
 
